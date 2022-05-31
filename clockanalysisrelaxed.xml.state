@@ -1,0 +1,40 @@
+<itsabeastystatewerein version='2.0' sample='50000000'>
+<statenode id='Tree.t:alignmaf_1'>(((23:1.8487830796538054,((19:0.18067555420286463,(((20:0.0026747681394228007,18:0.016373398276437134)28:0.09385300315733192,17:0.03899352472133999)35:0.0959600404129195,21:0.003446715819285684)34:0.004626098657562139)29:0.04576055543051516,22:0.0730114520990921)36:0.5017990248148814)32:38.87223418128435,((16:1.4078077888927334,(24:2.230654192923563,((15:0.054935127644117565,12:0.054935127644117565)26:0.05900200021955315,13:0.1879097306032298)27:1.2153472020463498)30:0.06208510281834112)31:0.12071242436439666,14:1.5696161036679457)33:38.707565540831716)37:25.312028606007274,(((5:1.3582312570259027,9:1.7554915309986363)42:4.3794528805447115,((1:1.7980290498458338,(6:0.5323370515331458,(((10:0.3383024605776388,7:0.15748054276954981)43:0.14297497861402952,3:0.0703185350821478)44:0.09279887632973605,2:0.1302406990831404)45:0.13360320176511564)25:1.5725413133812634)47:3.00290292071055,((8:0.6076350650004088,0:0.15010081842490308)39:0.27494354595247117,11:1.3291539534185013)41:4.233421852754379)46:0.8463412081100721)40:0.4465562082430523,4:6.132185551293194)38:48.49538086359743)48:0.0</statenode>
+<statenode id='freqParameter.s:alignmaf_1'>freqParameter.s:alignmaf_1[4 1] (0.0,1.0): 0.3342889345605918 0.1664915924594714 0.16424565783825926 0.3349738151416801 </statenode>
+<statenode id='rateAC.s:alignmaf_1'>rateAC.s:alignmaf_1[1 1] (0.5,1.5): 1.0209231294755783 </statenode>
+<statenode id='rateAG.s:alignmaf_1'>rateAG.s:alignmaf_1[1 1] (3.0,4.0): 3.592465171003296 </statenode>
+<statenode id='rateAT.s:alignmaf_1'>rateAT.s:alignmaf_1[1 1] (0.25,0.5): 0.41202962652853536 </statenode>
+<statenode id='rateCG.s:alignmaf_1'>rateCG.s:alignmaf_1[1 1] (0.25,0.5): 0.4309755326597824 </statenode>
+<statenode id='rateGT.s:alignmaf_1'>rateGT.s:alignmaf_1[1 1] (0.5,1.5): 1.0465246592471211 </statenode>
+<statenode id='rateCT.s:alignmaf_1'>rateCT.s:alignmaf_1[1 1] (3.0,4.0): 3.296537202192925 </statenode>
+<statenode id='clockRate.c:alignmaf_1'>clockRate.c:alignmaf_1[1 1] (0.0,Infinity): 4.1329019550593556E-5 </statenode>
+<statenode id='origin_BDSKY_Serial.t:alignmaf_1'>origin_BDSKY_Serial.t:alignmaf_1[1 1] (0.0,Infinity): 66.57699284764506 </statenode>
+<statenode id='becomeUninfectiousRate_BDSKY_Serial.t:alignmaf_1'>becomeUninfectiousRate_BDSKY_Serial.t:alignmaf_1[1 1] (0.0,Infinity): 0.07259957322002929 </statenode>
+<statenode id='reproductiveNumber_BDSKY_Serial.t:alignmaf_1'>reproductiveNumber_BDSKY_Serial.t:alignmaf_1[5 1] (0.0,Infinity): 1.137024565013573 1.2927986632072905 1.0576085641316557 0.9972134273139853 7.144756895225208 </statenode>
+<statenode id='samplingProportion_BDSKY_Serial.t:alignmaf_1'>samplingProportion_BDSKY_Serial.t:alignmaf_1[1 1] (0.0,1.0): 0.8938013515702545 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"FrequenciesExchanger.s:alignmaf_1","p":0.00847778356510077,"accept":6273,"reject":42007,"acceptFC":6263,"rejectFC":42002,"rejectIv":0,"rejectOp":0},
+{"id":"RateACScaler.s:alignmaf_1","p":0.48844729408085336,"accept":8888,"reject":39258,"acceptFC":8885,"rejectFC":39244,"rejectIv":14516,"rejectOp":14516},
+{"id":"RateAGScaler.s:alignmaf_1","p":0.19789328536996437,"accept":1616,"reject":46420,"acceptFC":1614,"rejectFC":46406,"rejectIv":44885,"rejectOp":44885},
+{"id":"RateATScaler.s:alignmaf_1","p":0.24299881818176428,"accept":3675,"reject":44615,"acceptFC":3671,"rejectFC":44607,"rejectIv":40075,"rejectOp":40075},
+{"id":"RateCGScaler.s:alignmaf_1","p":0.15655537980495274,"accept":4330,"reject":43656,"acceptFC":4327,"rejectFC":43645,"rejectIv":41527,"rejectOp":41527},
+{"id":"RateGTScaler.s:alignmaf_1","p":0.404512087062071,"accept":6238,"reject":41625,"acceptFC":6234,"rejectFC":41609,"rejectIv":25435,"rejectOp":25435},
+{"id":"RateCTScaler.s:alignmaf_1","p":0.2677283373974752,"accept":2165,"reject":45869,"acceptFC":2162,"rejectFC":45853,"rejectIv":43652,"rejectOp":43652},
+{"id":"StrictClockRateScaler.c:alignmaf_1","p":0.8373224500847001,"accept":325120,"reject":1120833,"acceptFC":325021,"rejectFC":1120401,"rejectIv":0,"rejectOp":0},
+{"id":"strictClockUpDownOperator.c:alignmaf_1","p":0.9033336776199267,"accept":65392,"reject":1381803,"acceptFC":65390,"rejectFC":1381177,"rejectIv":1045997,"rejectOp":722794},
+{"id":"BDSKY_SerialTreeScaler.t:alignmaf_1","p":0.8129457674954905,"accept":29628,"reject":1416305,"acceptFC":29628,"rejectFC":1415741,"rejectIv":1193580,"rejectOp":623953},
+{"id":"BDSKY_SerialTreeRootScaler.t:alignmaf_1","p":0.8508400808496984,"accept":246963,"reject":1200328,"acceptFC":246947,"rejectFC":1199764,"rejectIv":493894,"rejectOp":121},
+{"id":"BDSKY_SerialUniformOperator.t:alignmaf_1","p":"NaN","accept":5797074,"reject":8669514,"acceptFC":5795215,"rejectFC":8665740,"rejectIv":0,"rejectOp":0},
+{"id":"BDSKY_SerialSubtreeSlide.t:alignmaf_1","p":1.1141740251440029,"accept":1406090,"reject":5828534,"acceptFC":1405956,"rejectFC":5825781,"rejectIv":2131038,"rejectOp":2108224},
+{"id":"BDSKY_SerialNarrow.t:alignmaf_1","p":"NaN","accept":1864787,"reject":5363182,"acceptFC":1864325,"rejectFC":5360855,"rejectIv":572763,"rejectOp":572763},
+{"id":"BDSKY_SerialWide.t:alignmaf_1","p":"NaN","accept":22185,"reject":1423972,"acceptFC":22181,"rejectFC":1423397,"rejectIv":1134501,"rejectOp":1134501},
+{"id":"BDSKY_SerialWilsonBalding.t:alignmaf_1","p":"NaN","accept":18918,"reject":1427318,"acceptFC":18901,"rejectFC":1426786,"rejectIv":231234,"rejectOp":231234},
+{"id":"becomeUninfectiousRateScaler_BDSKY_Serial.t:alignmaf_1","p":0.4387886786823803,"accept":247747,"reject":716476,"acceptFC":247536,"rejectFC":716326,"rejectIv":0,"rejectOp":0},
+{"id":"reproductiveNumberScaler_BDSKY_Serial.t:alignmaf_1","p":0.18448635086978835,"accept":1300814,"reject":3521087,"acceptFC":1299362,"rejectFC":3520640,"rejectIv":0,"rejectOp":0},
+{"id":"samplingProportionScaler_BDSKY_Serial.t:alignmaf_1","p":0.2162078692975256,"accept":422993,"reject":4398377,"acceptFC":421843,"rejectFC":4397665,"rejectIv":3696611,"rejectOp":3696611},
+{"id":"updownBD_BDSKY_Serial.t:alignmaf_1","p":0.34416211857673507,"accept":252323,"reject":713431,"acceptFC":252063,"rejectFC":713335,"rejectIv":0,"rejectOp":0},
+{"id":"origScaler_BDSKY_Serial.t:alignmaf_1","p":0.8540146912504121,"accept":112340,"reject":369832,"acceptFC":112288,"rejectFC":369664,"rejectIv":130049,"rejectOp":0}
+]}
+-->
